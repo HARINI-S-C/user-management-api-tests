@@ -3,13 +3,13 @@
 This repository contains automated and manual test cases for a User Management API. The purpose is to validate the functionality, performance, and security of user management endpoints such as user registration, login, profile management, and user deletion. These tests help ensure the API behaves as expected and handles various scenarios gracefully.
 
 ## Table of Contents
--[Features](#Features)
--[API Endpoints Covered](#API Endpoints Covered)
--[Example Test Cases](#Example Test Cases)
--[Tools and Technologies](#Tools and Technologies)
--[Setup Instructions](#Setup Instructions)
--[Project Structure](#Project Structure)
--[Contribution Guidelines](#Contribution Guidelines)
+- [Features](#Features)
+- [API Endpoints Covered](#API Endpoints Covered)
+- [Example Test Cases](#Example Test Cases)
+- [Tools and Technologies](#Tools and Technologies)
+- [Setup Instructions](#Setup Instructions)
+- [Project Structure](#Project Structure)
+- [Contribution Guidelines](#Contribution Guidelines)
 
 ---
 ## Features
