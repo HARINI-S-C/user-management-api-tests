@@ -11,15 +11,6 @@ This repository contains automated and manual test cases for a User Management A
 - [Project Structure](#Project-Structure)
 - [Contribution Guidelines](#Contribution-Guidelines)
 
-- [Features](#features)
-- [API Endpoints Covered](#api-endpoints-covered)
-- [Example Test Cases](#example-test-cases)
-- [Tools and Technologies](#tools-and-technologies)
-- [Setup Instructions](#setup-instructions)
-- [Project Structure](#project-structure)
-- [Contribution Guidelines](#contribution-guidelines)
-
-
 ---
 ## Features
 - Tests for user registration with valid and invalid data
@@ -45,15 +36,15 @@ This repository contains automated and manual test cases for a User Management A
 **Expected**: HTTP 201 Created, user ID returned
 
 ### 2. Login User
-**Input**:Correct username and password
+**Input**: Correct username and password
 **Expected**: HTTP 200 OK, authentication token returned
 
 ### 3. Login User with Invalid Password
-**Input**:Correct username, incorrect password
+**Input**: Correct username, incorrect password
 **Expected**: HTTP 401 Unauthorized, error message
 
 ### 4. Fetch Profile with Valid Token
-**Input**:Valid authentication token in header
+**Input**: Valid authentication token in header
 **Expected**: HTTP 200 OK, user profile JSON returned
 
 ---
