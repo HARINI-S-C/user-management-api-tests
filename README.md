@@ -3,13 +3,13 @@
 This repository contains automated and manual test cases for a User Management API. The purpose is to validate the functionality, performance, and security of user management endpoints such as user registration, login, profile management, and user deletion. These tests help ensure the API behaves as expected and handles various scenarios gracefully.
 
 ## Table of Contents
--[Features](#-Features)
--[API Endpoints Covered](#-Features)
--[Example Test Cases](#-Example Test Cases)
--[Tools and Technologies](#-Tools and Technologies)
--[Setup Instructions](#-Setup Instructions)
--[Project Structure](#-Project Structure)
--[Contribution Guidelines](#-Contribution Guidelines)
+-[Features](#Features)
+-[API Endpoints Covered](#API Endpoints Covered)
+-[Example Test Cases](#Example Test Cases)
+-[Tools and Technologies](#Tools and Technologies)
+-[Setup Instructions](#Setup Instructions)
+-[Project Structure](#Project Structure)
+-[Contribution Guidelines](#Contribution Guidelines)
 
 ---
 ## Features
@@ -58,14 +58,15 @@ CI/CD Integration Ready
 ---
 
 ## Setup Instructions
-1.Clone the repository
-2.Install dependencies (e.g., npm install or pip install -r requirements.txt)
-3.Configure environment variables for API base URL and authentication
-4.Run tests using the chosen framework command (e.g., npm test or pytest)
+1. Clone the repository
+2. Install dependencies (e.g., npm install or pip install -r requirements.txt)
+3. Configure environment variables for API base URL and authentication
+4. Run tests using the chosen framework command (e.g., npm test or pytest)
 
 ---
 ## Project Structure
-'''MyHackathonProject/
+```
+MyHackathonProject/
 │
 ├── app/
 │ ├── main.py
@@ -74,7 +75,8 @@ CI/CD Integration Ready
 ├── data/
 │ └── sample_data.csv
 ├── requirements.txt
-└── README.md '''
+└── README.md
+```
 
 ----
 
