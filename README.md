@@ -50,10 +50,10 @@ This repository contains automated and manual test cases for a User Management A
 ---
 ## Tools and Technologies
 
-**Testing Framework**: Postman / RestAssured / pytest
-**Mocking**: Postman Mock Server or equivalent
-**Assertions**: Status codes, response body schema, headers
-CI/CD Integration Ready
+- **Testing Framework**: Postman / RestAssured / pytest
+- **Mocking**: Postman Mock Server or equivalent
+- **Assertions**: Status codes, response body schema, headers
+- CI/CD Integration Ready
 
 ---
 
