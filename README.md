@@ -3,58 +3,58 @@
 This repository contains automated and manual test cases for a User Management API. The purpose is to validate the functionality, performance, and security of user management endpoints such as user registration, login, profile management, and user deletion. These tests help ensure the API behaves as expected and handles various scenarios gracefully.
 
 ## Features
-Tests for user registration with valid and invalid data
+- Tests for user registration with valid and invalid data
 
-Login authentication tests including valid, invalid, and boundary cases
+- Login authentication tests including valid, invalid, and boundary cases
 
-Profile retrieval and update tests
+- Profile retrieval and update tests
 
-Password reset and user deletion tests
+- Password reset and user deletion tests
 
-Validation of response status codes, payload, and headers
+- Validation of response status codes, payload, and headers
 
-Performance and security test scenarios
+- Performance and security test scenarios
 
 ## API Endpoints Covered
-POST /api/user/register — Register a new user
+- POST /api/user/register — Register a new user
 
-POST /api/user/login — Authenticate user login
+- POST /api/user/login — Authenticate user login
 
-GET /api/user/profile — Retrieve user profile details
+- GET /api/user/profile — Retrieve user profile details
 
-PUT /api/user/profile — Update user profile
+- PUT /api/user/profile — Update user profile
 
-POST /api/user/reset-password — Reset user password
+- POST /api/user/reset-password — Reset user password
 
-DELETE /api/user/{id} — Remove user account
+- DELETE /api/user/{id} — Remove user account
 
 ## Example Test Cases
-1. Register User
-### Input:
+### 1. Register User
+Input:
 Valid username, email, and password
 
-### Expected: 
+Expected: 
 HTTP 201 Created, user ID returned
 
-2. Login User
-### Input:
+### 2. Login User
+Input:
 Correct username and password
 
-### Expected: 
+Expected: 
 HTTP 200 OK, authentication token returned
 
-3. Login User with Invalid Password
-### Input:
+### 3. Login User with Invalid Password
+Input:
 Correct username, incorrect password
 
-### Expected: 
+Expected: 
 HTTP 401 Unauthorized, error message
 
-4. Fetch Profile with Valid Token
-### Input:
+### 4. Fetch Profile with Valid Token
+Input:
 Valid authentication token in header
 
-### Expected: 
+Expected: 
 HTTP 200 OK, user profile JSON returned
 
 ## Tools and Technologies
@@ -79,8 +79,8 @@ Configure environment variables for API base URL and authentication
 Run tests using the chosen framework command (e.g., npm test or pytest)
 
 ## Contribution Guidelines
-Fork the repo and create a feature branch
+- Fork the repo and create a feature branch
 
-Write clear, descriptive test cases for any new endpoints or bug fixes
+- Write clear, descriptive test cases for any new endpoints or bug fixes
 
-Submit pull requests with detailed explanations
+- Submit pull requests with detailed explanations
