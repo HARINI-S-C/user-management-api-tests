@@ -4,12 +4,21 @@ This repository contains automated and manual test cases for a User Management A
 
 ## Table of Contents
 - [Features](#Features)
-- [API Endpoints Covered](#API Endpoints Covered)
-- [Example Test Cases](#Example Test Cases)
-- [Tools and Technologies](#Tools and Technologies)
-- [Setup Instructions](#Setup Instructions)
-- [Project Structure](#Project Structure)
-- [Contribution Guidelines](#Contribution Guidelines)
+- [API Endpoints Covered](#API-Endpoints-Covered)
+- [Example Test Cases](#Example-Test-Cases)
+- [Tools and Technologies](#Tools-and-Technologies)
+- [Setup Instructions](#Setup-Instructions)
+- [Project Structure](#Project-Structure)
+- [Contribution Guidelines](#Contribution-Guidelines)
+
+- [Features](#features)
+- [API Endpoints Covered](#api-endpoints-covered)
+- [Example Test Cases](#example-test-cases)
+- [Tools and Technologies](#tools-and-technologies)
+- [Setup Instructions](#setup-instructions)
+- [Project Structure](#project-structure)
+- [Contribution Guidelines](#contribution-guidelines)
+
 
 ---
 ## Features
